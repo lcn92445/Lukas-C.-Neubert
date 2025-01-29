@@ -1,0 +1,266 @@
+/* General Styles */
+body {
+    margin: 0;
+
+}
+
+/* Nav Styles */
+nav {
+    background-color: #353a3a;
+    color: #c7d5d5;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav p, nav a {
+    padding: 10px 20px;
+    margin: 0;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #66BFBF;
+}
+
+nav a:hover {
+    color: #3a6c6c;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #353a3a;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    padding-left: 5px;
+    color: #66BFBF;
+}
+
+footer a:hover {
+    color: #3a6c6c;
+}
+
+/* Splash Section */
+.splash {
+    background-color: #8fd3d3b3;
+    color: #74abab;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.splash h1 {
+    padding: 10px;
+    margin: 0;
+    font-size: 75px;
+    text-shadow: 2px 2px;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.splash img {
+    border: 2px solid #000000;
+    border-radius: 100px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 4px #000000;
+}
+
+.splash p {
+    color: #1f2f2f;
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Horizontal Rules */
+hr {
+    margin: 0;
+    border: 2px solid #353a3a;  
+    box-shadow: 0px 4px 4px #000000;
+}
+
+/* Sections */
+section {
+    padding-top: 10px;
+    background-color: #266262b3;
+    padding-bottom: 20px;
+}
+
+/* Section Headings */
+section h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 100px;
+    padding: 10px 20px;
+    margin-top: 0px;
+    box-shadow: 0px 4px 4px #000000;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+section h3 {
+    padding-left: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+/* Paragraph Styles */
+section p {
+    padding-left: 30px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+/* link styles */
+section a {
+    text-decoration: none;
+}
+section a:hover {
+    color: #3a6c6c;
+}
+
+/* List Styles */
+ul {
+    margin-bottom: 0;
+    padding-left: 50px;
+    list-style-type:square;
+    font-size: 20px;
+}
+
+dl {
+    margin-bottom: 0;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    font-size: 20px;
+}
+
+dl dt{
+    padding-left: 5px;
+}
+dl dd{
+    padding-left: 5px;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-section {
+    background-color: #ffffff;
+    color: #195454;
+}
+
+.project-name {
+    padding-left: 0px;
+}
+
+/* Project Section */
+.three-col {
+    background-color: #ffffff;
+    color: #195454;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start, stretch;
+    gap: 3px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card {
+    padding-top: 5px;
+    box-shadow: 3px 3px 3px lightblue, 3px -3px 3px lightblue;
+    border: 2px solid #000000;
+}
+
+.card img {
+    border: 2px solid #000000;
+    border-radius: 100px;
+}
+
+.card h3 {
+    text-shadow: 1px 1px;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 10px;
+}
+
+form {
+    padding: 10px;
+}
+
+form input, form textarea {
+    border: 1px solid #ccc7c7;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #000000;
+}
+
+form button {
+    background-color: #24e4e4;
+}
+
+form button:hover {
+    background-color: #195454;
+}
+
+.thankyou {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    background-color: #8fd3d3b3;
+}
+
